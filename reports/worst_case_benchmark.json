@@ -1,0 +1,33 @@
+{
+  "files": [
+    {
+      "file": "test_data\\worst_case_tests.jsonl",
+      "total": 41,
+      "blocked": 18,
+      "passed": 23,
+      "block_rate": 43.90243902439025
+    }
+  ],
+  "reasons": {
+    "blocked_patterns": 17,
+    "prompt_injection": 1
+  },
+  "patterns": {
+    "https://": 17,
+    "\\.facebook\\.": 3,
+    "analytics": 3,
+    "googleapis": 2,
+    "tracking": 2,
+    "pixel": 2,
+    "collect": 2,
+    "firebase": 1,
+    "bypass": 1,
+    "\\.google\\.": 1,
+    "\\.doubleclick\\.": 1
+  },
+  "stats": {
+    "total_checks": 41,
+    "blocked_count": 18,
+    "block_rate": 43.90243902439025
+  }
+}
